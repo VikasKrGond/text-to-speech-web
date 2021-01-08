@@ -1,3 +1,7 @@
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
 $(function(){
     if ('speechSynthesis' in window) {
       speechSynthesis.onvoiceschanged = function() {
